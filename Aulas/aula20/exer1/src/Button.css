@@ -1,0 +1,8 @@
+Button{
+    border: rgb(18, 9, 48) solid;
+    border-radius: 6px;
+    color: aliceblue;
+    background-color: rgb(18, 9, 48);
+    margin: 10px;
+    margin-top: 20px;
+  }

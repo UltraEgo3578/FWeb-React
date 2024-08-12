@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: cornsilk;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login{
+  width: 19vw;
+  height: 36vh;
+  border-radius: 15px;
+  background: linear-gradient(to right, aquamarine, blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login h1{
+  background-color: unset;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+.login div h3{
+  background-color: unset;
+  color: black;
+}
+.login div input{
+  border: unset;
+  border-radius: 50px;
+  width: 190px;
+}
+#info{
+  width: 58%;
+  height: 120px;
+  background-color: transparent ;
+  box-shadow: -2px 4px 4px 4px rgba(104, 104, 104, 0.2);
+  border-radius: 10px;
+}
+#info h3,input{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 10px;
+  top: 16px;
+}
+#log{
+  margin: 25px;
+  width: 75%;
+  height: 31px;
+  border: groove black;
+  border-radius: 6px;
+  position: relative;
+}
